@@ -45,7 +45,7 @@ body {
     gap: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    color:#FFF;
+    color: #FFF;
 }
 
 .hero-left {
@@ -161,4 +161,85 @@ body {
     color: #1F2937;
     font-weight: 300;
     text-align: right;
+}
+
+.section-3 {
+    display: flex;
+    flex: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-3-call-to-action {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.section-3-call-to-action-container {
+    display: flex;
+    flex: auto;
+    border-radius: 5px;
+    background-color: #3B82F6;
+    padding: 30px 50px;
+}
+
+.section-3-call-to-action-left {
+    display: flex;
+    flex: auto;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.section-3-call-to-action-heading {
+    font-size: 18px;
+    font-weight: 900;
+    flex: auto;
+    font-weight: bold;
+}
+
+.section-3-call-to-action-subtext {
+    font-size: 14px;
+    flex: auto;
+}
+
+.section-3-call-to-action-right {
+    display: flex;
+    flex: auto;
+    align-items: right;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.section-3-call-to-action-button {
+    background-color: #3B82F6;
+    color: white;
+    padding: 0px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex: auto;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
 }
