@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-left-pad {
+    flex: auto;
+}
+
+.header-right-pad {
+    flex: auto;
+}
+
+.header-logo {
+    flex: auto;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.header-link {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.hero {
+    display: flex;
+    flex: auto;
+    background-color: #1F2937;
+    padding: 50px;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:#FFF;
+}
+
+.hero-left {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    width: calc(50vw - 200px);
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+
+.hero-left p {
+    font-size: 18px;
+}
+
+.hero-right {
+    display: flex;
+    flex: auto;
+    width: calc(50vw - 200px);
+    background-color: #889;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 5px;
+}
