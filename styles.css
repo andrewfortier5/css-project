@@ -74,6 +74,9 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 300px;
+    background-image: url('./img/clocks.jpg');
+    background-size: cover;
+    border-radius: 2px;
 }
 
 .signup-button {
@@ -223,7 +226,7 @@ body {
 .section-3-call-to-action-button {
     background-color: #3B82F6;
     color: white;
-    padding: 0px 30px;
+    padding: 5px 30px;
     font-size: 14px;
     border-radius: 5px;
     border: 2px solid #fff;
@@ -242,4 +245,27 @@ body {
     text-align: center;
     padding: 20px;
     font-size: 12px;
+}
+
+.used-clocks {
+    background-image: url('./img/used-clocks.jpg');
+    background-size: cover;
+}
+
+.antique-clocks {
+    background-image: url('./img/antique-clocks.jpg');
+    background-size: cover;
+}
+
+.clock-parts {
+    background-image: url('./img/clock-parts.jpg');
+    background-size: cover;
+}
+
+.harry-repair {
+    background-image: url('./img/harry-repair.jpg');
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #000;
 }
